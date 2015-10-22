@@ -169,10 +169,7 @@
 							function(data) {
 								if(!data.error)
 								{
-									/** ONLY FOR THE DEMO, YOU CAN REMOVE THIS CODE **/
-										$('.serverResponse p').html(data.server);
-									/** END ONLY FOR THE DEMO **/
-
+									
 
 									/** Here you can display an alert box,
 										or use the jNotify Plugin :) http://www.myqjqueryplugins.com/jNotify
@@ -182,10 +179,7 @@
 								else
 								{
 
-									/** ONLY FOR THE DEMO, YOU CAN REMOVE THIS CODE **/
-										$('.serverResponse p').html(data.server);
-									/** END ONLY FOR THE DEMO **/
-
+									
 									/** Here you can display an alert box,
 										or use the jNotify Plugin :) http://www.myqjqueryplugins.com/jNotify
 										exemple :	*/
